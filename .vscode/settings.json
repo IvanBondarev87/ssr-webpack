@@ -1,0 +1,29 @@
+{
+  "typescript.tsdk": "node_modules\\typescript\\lib",
+  "typescript.enablePromptUseWorkspaceTsdk": true,
+  "emmet.triggerExpansionOnTab": true,
+  "explorer.autoReveal": false,
+  "explorer.compactFolders": false,
+  "files.exclude": {
+    "node_modules": true,
+  },
+  "editor.tabSize": 2,
+  "editor.tokenColorCustomizations": {
+    "[Default Dark+]": {
+      "textMateRules": [
+        {
+          "scope": [
+            "variable.other.constant",
+            "variable.other.enummember"
+          ],
+          "settings": {
+            "foreground": "#9cdcfe"
+          }
+        }
+      ]
+    }
+  },
+  "code-runner.executorMap": {
+    "typescript": "node -r ts-node/register",
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+
+    "jsx": "react-jsx",
+
+    "experimentalDecorators": true,
+    "noImplicitAny": false,
+
+    "outDir": "dist",
+    "module": "CommonJS",
+    "target": "ES2015",
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "allowJs": true,
+
+    "lib": ["es2020", "es2019", "es2018", "DOM", "DOM.Iterable"],
+
+    "baseUrl": "./src",
+  },
+
+  "include": [
+    "src"
+  ]
+
+}
